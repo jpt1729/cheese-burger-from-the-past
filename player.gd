@@ -14,6 +14,7 @@ func _process(delta: float) -> void:
 	var input := Vector3.ZERO
 	input.x = Input.get_axis("move_left", "move_right")
 	input.z = Input.get_axis("move_forward", "move_back")
+	input.y = Input.get_action_strength("jump")
 	
 	apply_central_force($TwistPivot.basis * input * 1500.0 * delta)
 	
