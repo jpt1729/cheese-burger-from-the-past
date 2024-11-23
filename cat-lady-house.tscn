@@ -1,10 +1,14 @@
-[gd_scene load_steps=19 format=4 uid="uid://b72y8tenb2voe"]
+[gd_scene load_steps=23 format=4 uid="uid://b72y8tenb2voe"]
 
 [ext_resource type="Texture2D" uid="uid://dr4dx3ylqjypi" path="res://assets/tacos_26.png" id="1_jmv62"]
 [ext_resource type="Texture2D" uid="uid://cyh0t32qqft0u" path="res://assets/tacos_27.jpg" id="2_b7tnm"]
 [ext_resource type="Texture2D" uid="uid://bj6m1sjae3sph" path="res://assets/tacos_14.png" id="3_8jg4f"]
 [ext_resource type="PackedScene" uid="uid://cs2dc2hhw2obi" path="res://assets/psx_graphics__low_poly_woman__free_download.glb" id="4_1wmoh"]
 [ext_resource type="PackedScene" uid="uid://ck8ghw055t71e" path="res://assets/house/psx_stylized_couch.glb" id="5_5vj25"]
+[ext_resource type="PackedScene" uid="uid://bqqnek37xmd7k" path="res://assets/house/fire_can_stove_128x128_psx_retro.glb" id="6_7y0hm"]
+[ext_resource type="PackedScene" uid="uid://dub416j0g6311" path="res://assets/house/ps1_style_toilete.glb" id="7_8ydgj"]
+[ext_resource type="PackedScene" uid="uid://dhttmrgk27x24" path="res://assets/house/psx_wooden_box.glb" id="8_idqb1"]
+[ext_resource type="PackedScene" uid="uid://b85i0qhmf1sv" path="res://assets/house/psx_storage_shelves__cardboard_boxs.glb" id="9_f2yus"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_f134t"]
 resource_name = "buildings_07"
@@ -177,3 +181,21 @@ transform = Transform3D(0.15, 0, 0, 0, -6.55671e-09, -0.15, 0, 0.15, -6.55671e-0
 
 [node name="Sketchfab_Scene2" parent="." instance=ExtResource("5_5vj25")]
 transform = Transform3D(-0.1, -1.50996e-08, -4.44089e-16, 0, -4.37114e-09, 0.1, -1.50996e-08, 0.1, 4.37114e-09, 0.572393, 0.710438, -0.896953)
+
+[node name="Sketchfab_Scene3" parent="." instance=ExtResource("6_7y0hm")]
+transform = Transform3D(6.21725e-15, -7.64949e-08, -1.75, -1.75, -7.64949e-08, -2.87355e-15, -7.64949e-08, 1.75, -7.64949e-08, 0.667691, 2.26309, -1.00404)
+
+[node name="Sketchfab_Scene4" parent="." instance=ExtResource("7_8ydgj")]
+transform = Transform3D(8.88178e-16, -1.22608e-08, -0.280494, -0.280494, -1.22608e-08, 0, -1.22608e-08, 0.280494, -1.22608e-08, -0.55745, 2.57344, -0.989857)
+
+[node name="Sketchfab_Scene6" parent="." instance=ExtResource("8_idqb1")]
+transform = Transform3D(-0.14, -2.11394e-08, 0, 2.11394e-08, -0.14, 0, 0, 0, 0.14, 0.677169, -0.453553, -0.858956)
+
+[node name="Sketchfab_Scene7" parent="." instance=ExtResource("8_idqb1")]
+transform = Transform3D(-0.108822, -0.0880783, 0, 0.0880783, -0.108822, 0, 0, 0, 0.14, 0.635483, -0.217992, -0.575955)
+
+[node name="Sketchfab_Scene5" parent="." instance=ExtResource("8_idqb1")]
+transform = Transform3D(-0.0467168, 0.131976, 0, -0.131976, -0.0467168, 0, 0, 0, 0.14, 0.685153, -0.13382, -0.863382)
+
+[node name="Sketchfab_Scene8" parent="." instance=ExtResource("9_f2yus")]
+transform = Transform3D(-2.62268e-08, -2.26494e-08, 0.3, 0.3, 2.26494e-08, 2.62268e-08, -2.26494e-08, 0.3, 2.26494e-08, -0.887499, 0.850551, -0.887236)
