@@ -27,7 +27,7 @@ directories/dch_directory={
 directories/dtl_directory={
 "sussytest": "res://character_dialogues/sussytest.dtl"
 }
-layout/style_list=["res://character_dialogues/defaultstyle.tres"]
+layout/style_list=["res://character_dialogues/defaultstyle.tres", "res://character_dialogues/sus style.tres"]
 layout/default_style="res://character_dialogues/defaultstyle.tres"
 variables={}
 glossary/default_case_sensitive=true
