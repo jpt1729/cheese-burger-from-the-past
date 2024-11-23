@@ -1,8 +1,19 @@
-[gd_scene load_steps=2 format=3 uid="uid://x8beujmn07x6"]
+[gd_scene load_steps=3 format=3 uid="uid://x8beujmn07x6"]
 
-[ext_resource type="PackedScene" uid="uid://bhh0mo3pu7gk" path="res://assets/tacos.glb" id="1_pcuud"]
+[ext_resource type="PackedScene" uid="uid://dd7t8iull1hhc" path="res://sketchfab_scene.tscn" id="1_3lyiq"]
+[ext_resource type="PackedScene" uid="uid://byqrq06rhek16" path="res://player.tscn" id="2_7vfbt"]
 
 [node name="Node3D" type="Node3D"]
 
-[node name="Sketchfab_Scene" parent="." instance=ExtResource("1_pcuud")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.553927, 0, 1.08461)
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(-0.866025, -0.433013, 0.25, 0, 0.5, 0.866025, -0.5, 0.75, -0.433013, 0, 49.6225, 0)
+shadow_enabled = true
+
+[node name="Sketchfab_Scene" parent="." instance=ExtResource("1_3lyiq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -2.98227, 0)
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(0.996032, -0.0483655, 0.0747073, 0.00610587, 0.874598, 0.48481, -0.0887869, -0.48243, 0.871423, 2.86102e-06, 2.10193, -3.8147e-06)
+
+[node name="Player" parent="." instance=ExtResource("2_7vfbt")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00248432, 2, -1.98673)
