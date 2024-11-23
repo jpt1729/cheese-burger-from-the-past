@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://x8beujmn07x6"]
+
+[ext_resource type="PackedScene" uid="uid://bhh0mo3pu7gk" path="res://assets/tacos.glb" id="1_pcuud"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="Sketchfab_Scene" parent="." instance=ExtResource("1_pcuud")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.553927, 0, 1.08461)

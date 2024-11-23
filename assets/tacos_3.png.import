@@ -1,0 +1,38 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://c5e4587qs2vo0"
+path.s3tc="res://.godot/imported/tacos_3.png-b6ce31b90cd67b061aa4833d1101bf2f.s3tc.ctex"
+metadata={
+"imported_formats": ["s3tc_bptc"],
+"vram_texture": true
+}
+generator_parameters={
+"md5": "1981263e5015b3b605166a56403007e0"
+}
+
+[deps]
+
+source_file="res://assets/tacos_3.png"
+dest_files=["res://.godot/imported/tacos_3.png-b6ce31b90cd67b061aa4833d1101bf2f.s3tc.ctex"]
+
+[params]
+
+compress/mode=2
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/hdr_compression=1
+compress/normal_map=0
+compress/channel_pack=0
+mipmaps/generate=true
+mipmaps/limit=-1
+roughness/mode=0
+roughness/src_normal=""
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=0
