@@ -1,4 +1,4 @@
-[gd_scene load_steps=5 format=3 uid="uid://dd7t8iull1hhc"]
+[gd_scene load_steps=7 format=3 uid="uid://dd7t8iull1hhc"]
 
 [ext_resource type="PackedScene" uid="uid://bhh0mo3pu7gk" path="res://assets/tacos.glb" id="1_ogl16"]
 
@@ -6,6 +6,12 @@
 data = PackedVector3Array(1.1068, -4.5371, -0.0669, -5.8732, -4.5371, -0.0669, -5.8732, -0.0001, -0.0669, -5.8732, -0.0001, -0.0669, -5.8732, 4.5371, -0.0669, 1.1068, 4.5371, -0.0669, -41.0607, -0.0001, -0.0669, -41.0607, 4.5371, -0.0669, -5.8732, 4.5371, -0.0669, -5.8732, -4.5371, -0.0669, -41.0607, -4.5371, -0.0669, -41.0607, -0.0001, -0.0669, 1.1068, -4.5371, -0.0669, -5.8732, -0.0001, -0.0669, 1.1068, -0.0001, -0.0669, -5.8732, -0.0001, -0.0669, 1.1068, 4.5371, -0.0669, 1.1068, -0.0001, -0.0669, -41.0607, -0.0001, -0.0669, -5.8732, 4.5371, -0.0669, -5.8732, -0.0001, -0.0669, -5.8732, -4.5371, -0.0669, -41.0607, -0.0001, -0.0669, -5.8732, -0.0001, -0.0669)
 
 [sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_kic4i"]
+data = PackedVector3Array(1.1068, -4.5371, -0.0669, -5.8732, -4.5371, -0.0669, -5.8732, -0.0001, -0.0669, -5.8732, -0.0001, -0.0669, -5.8732, 4.5371, -0.0669, 1.1068, 4.5371, -0.0669, -41.0607, -0.0001, -0.0669, -41.0607, 4.5371, -0.0669, -5.8732, 4.5371, -0.0669, -5.8732, -4.5371, -0.0669, -41.0607, -4.5371, -0.0669, -41.0607, -0.0001, -0.0669, 1.1068, -4.5371, -0.0669, -5.8732, -0.0001, -0.0669, 1.1068, -0.0001, -0.0669, -5.8732, -0.0001, -0.0669, 1.1068, 4.5371, -0.0669, 1.1068, -0.0001, -0.0669, -41.0607, -0.0001, -0.0669, -5.8732, 4.5371, -0.0669, -5.8732, -0.0001, -0.0669, -5.8732, -4.5371, -0.0669, -41.0607, -0.0001, -0.0669, -5.8732, -0.0001, -0.0669)
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_8icos"]
+data = PackedVector3Array(1.1068, -4.5371, -0.0669, -5.8732, -4.5371, -0.0669, -5.8732, -0.0001, -0.0669, -5.8732, -0.0001, -0.0669, -5.8732, 4.5371, -0.0669, 1.1068, 4.5371, -0.0669, -41.0607, -0.0001, -0.0669, -41.0607, 4.5371, -0.0669, -5.8732, 4.5371, -0.0669, -5.8732, -4.5371, -0.0669, -41.0607, -4.5371, -0.0669, -41.0607, -0.0001, -0.0669, 1.1068, -4.5371, -0.0669, -5.8732, -0.0001, -0.0669, 1.1068, -0.0001, -0.0669, -5.8732, -0.0001, -0.0669, 1.1068, 4.5371, -0.0669, 1.1068, -0.0001, -0.0669, -41.0607, -0.0001, -0.0669, -5.8732, 4.5371, -0.0669, -5.8732, -0.0001, -0.0669, -5.8732, -4.5371, -0.0669, -41.0607, -0.0001, -0.0669, -5.8732, -0.0001, -0.0669)
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_1sjex"]
 data = PackedVector3Array(1.1068, -4.5371, -0.0669, -5.8732, -4.5371, -0.0669, -5.8732, -0.0001, -0.0669, -5.8732, -0.0001, -0.0669, -5.8732, 4.5371, -0.0669, 1.1068, 4.5371, -0.0669, -41.0607, -0.0001, -0.0669, -41.0607, 4.5371, -0.0669, -5.8732, 4.5371, -0.0669, -5.8732, -4.5371, -0.0669, -41.0607, -4.5371, -0.0669, -41.0607, -0.0001, -0.0669, 1.1068, -4.5371, -0.0669, -5.8732, -0.0001, -0.0669, 1.1068, -0.0001, -0.0669, -5.8732, -0.0001, -0.0669, 1.1068, 4.5371, -0.0669, 1.1068, -0.0001, -0.0669, -41.0607, -0.0001, -0.0669, -5.8732, 4.5371, -0.0669, -5.8732, -0.0001, -0.0669, -5.8732, -4.5371, -0.0669, -41.0607, -0.0001, -0.0669, -5.8732, -0.0001, -0.0669)
 
 [sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_dglbl"]
@@ -28,6 +34,14 @@ shape = SubResource("ConcavePolygonShape3D_sjm6u")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Sketchfab_model/Collada visual scene group/Road_001/road-material/StaticBody3D2" index="0"]
 shape = SubResource("ConcavePolygonShape3D_kic4i")
+
+[node name="StaticBody3D3" type="StaticBody3D" parent="Sketchfab_model/Collada visual scene group/Road_001/road-material" index="2"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Sketchfab_model/Collada visual scene group/Road_001/road-material/StaticBody3D3" index="0"]
+shape = SubResource("ConcavePolygonShape3D_8icos")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Sketchfab_model/Collada visual scene group/Road_001" index="2"]
+shape = SubResource("ConcavePolygonShape3D_1sjex")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="Sketchfab_model/Collada visual scene group/Road_002/road-material2" index="0"]
 
