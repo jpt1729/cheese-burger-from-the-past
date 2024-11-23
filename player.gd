@@ -34,3 +34,12 @@ func _unhandled_input(event: InputEvent) -> void:
 		if Input.get_mouse_mode() == Input.MOUSE_MODE_CAPTURED:
 			twist_input = - event.relative.x * mouse_sensitivity
 			pitch_input = - event.relative.y * mouse_sensitivity
+
+func _input(event: InputEvent):
+	# check if a dialog is already running
+	if Dialogic.current_timeline != null:
+		return
+
+	if event is InputEventKey and event.keycode == KEY_ENTER and event.pressed:
+		Dialogic.start('sussytest')
+		get_viewport().set_input_as_handled()
