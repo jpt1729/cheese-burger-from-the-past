@@ -12,8 +12,7 @@ shadow_enabled = true
 [node name="Sketchfab_Scene" parent="." instance=ExtResource("1_3lyiq")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -2.98227, 0)
 
-[node name="Camera3D" type="Camera3D" parent="."]
-transform = Transform3D(0.996032, -0.0483655, 0.0747073, 0.00610587, 0.874598, 0.48481, -0.0887869, -0.48243, 0.871423, 2.86102e-06, 2.10193, -3.8147e-06)
-
 [node name="Player" parent="." instance=ExtResource("2_7vfbt")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00248432, 2, -1.98673)
+top_level = true
+linear_damp = 3.0
