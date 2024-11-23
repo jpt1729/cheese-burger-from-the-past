@@ -29,6 +29,7 @@ func _process(delta: float) -> void:
 	)
 	twist_input = 0.0
 	pitch_input = 0.0
+	
 func _unhandled_input(event: InputEvent) -> void:
 	if event is InputEventMouseMotion:
 		if Input.get_mouse_mode() == Input.MOUSE_MODE_CAPTURED:
@@ -43,3 +44,6 @@ func _input(event: InputEvent):
 	if event is InputEventKey and event.keycode == KEY_ENTER and event.pressed:
 		Dialogic.start('sussytest')
 		get_viewport().set_input_as_handled()
+	
+	if event is InputEventMouseButton and event.button_index == MOUSE_BUTTON_LEFT:
+		Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
